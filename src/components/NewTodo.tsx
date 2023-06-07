@@ -47,7 +47,7 @@ const NewTodo: React.FC<NewTodoProps> = (props) => {
           className='w-full p-2 rounded text-black'
         />
         <button
-          className='bg-blue-500 hover:bg-blue-600 px-4 py-3 rounded ml-2'
+          className={'bg-blue-500 hover:bg-blue-600 px-4 py-3 rounded ml-2'}
           onSubmit={handleInputRef}
         >
           <PaperIcon />
