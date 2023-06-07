@@ -10,25 +10,23 @@
   background-color: #242424;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+/* svg {
+  fill: currentColor;
+  width: 23px;
+  height: 23px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+} */
 
 .custom-list-style {
-  list-style: none; /* Remove default list style */
-  /* padding-left: 1.5em; Adjust padding as needed */
+  list-style: none;
 }
 
 .custom-list-style li::before {
-  content: '•'; /* Custom bullet character or icon */
-  font-size: 1.7em; /* Increase font size as desired */
+  content: '•';
+  font-size: 1.7em;
   font-weight: bold;
-  margin-right: 0.5em; /* Adjust spacing between bullet and text */
+  margin-right: 0.5em;
   display: inline-block;
   vertical-align: middle;
   line-height: 1em;

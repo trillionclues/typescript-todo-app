@@ -9,6 +9,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "jsx": "react-jsx",
+    "outDir": "/dist",
 
     /* Linting and Error Checking */
     "strict": true,
